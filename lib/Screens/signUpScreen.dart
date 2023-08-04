@@ -16,7 +16,7 @@ class _signUpScreen extends State<signUpScreen> {
 
   @override
   Widget build(BuildContext context) {
-    hideStatusBar(false);
+    hideStatusBar(true);
     return Scaffold(
         resizeToAvoidBottomInset :false,
         backgroundColor: Colors.transparent,
@@ -35,7 +35,7 @@ class _signUpScreen extends State<signUpScreen> {
         logo2(200.w),
         Spacer(),
         Container(
-          width: MediaQuery.of(context).size.width,
+          height: 550.h,
           decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.only(
